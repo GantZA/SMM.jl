@@ -6,7 +6,7 @@ using Statistics
 using HypothesisTests
 using Random
 
-include("basic_mom.jl")
+include("mom_objective_function.jl")
 include("summary_stats.jl")
 
 end # module
