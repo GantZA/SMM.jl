@@ -1,0 +1,4 @@
+name = "SMM"
+uuid = "6b2c9620-c515-11e9-3c8a-0f3e9dc355a6"
+authors = ["Michael Gant <michael.j.g.za@gmail.com>"]
+version = "0.1.0"
