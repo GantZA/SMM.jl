@@ -3,8 +3,11 @@ mutable struct MoM
     weight_matrix::Array{Float64,2}
 end
 
-
-function (mom::MoM)(simulated_log_price_paths)
+'''
+simulated_log_price_paths is a matrix of log price paths simulated from
+the same parameters.
+'''
+function (mom::MoM)(simulated_log_price_paths::Array{Float64,2})
     log_price_stats = select_moments(mom.log_prices)
 
     num_replications = size(simualted_log_prices, 2)
