@@ -10,5 +10,5 @@ include("mom_objective_function.jl")
 include("summary_stats.jl")
 
 
-export MoM, WeightMatrix, block_bootstrap_estimator
-end 
+export MoM, WeightMatrix, block_bootstrap_estimator, select_moments
+end
